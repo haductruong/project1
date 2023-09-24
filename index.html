@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unitop - Newspaper</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/fonts/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="container justify-content-between">
+                <a href="#">
+                    <img src="assets/images/logo.png" alt="No images">
+                </a>
+                <form action="get" id="search">
+                    <input type="text" name="q" id="main-search" placeholder="Bạn muốn tìm gì ?">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <div class="container">
+                <nav>
+                    <ul id="main-menu" class="d-flex">
+                        <li><a href="#">Trang chủ</a></li>
+                        <li class="active"><a href="">Thời trang</a></li>
+                        <li><a href="#">Đời sống</a></li>
+                        <li><a href="#">Xã hội</a></li>
+                        <li><a href="#">Thể thao</a></li>
+                        <li><a href="#">Video</a></li>
+                        <li><a href="#">Sự kiện</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- end header  -->
+        <div id="wp-featured-post" class="container">
+            <div class="box featured-post">
+                <div class="box-head">
+                    <h3>Nổi bật</h3>
+                </div>
+                <div class="box-body">
+                    <ul class="list-featured-post d-flex justify-content-between">
+                        <li><a href="#" class="post-thumbs">
+                                <img src="assets/images/post-1.png" alt="No image"> </a>
+                            <a href="#" class="post-title">Xu hướng thời trang hè 2020: Những mảnh ghép đáng được chú
+                                ý</a>
+                        </li>
+                        <li><a href="#" class="post-thumbs">
+                                <img src="assets/images/post-2.png" alt="No image"> </a>
+                            <a href="#" class="post-title">Buổi trình diễn thời trang mùa xuân tại Đại học Michigan đã
+                                bắt đầu</a>
+                        </li>
+                        <li><a href="#" class="post-thumbs">
+                                <img src="assets/images/post-3.png" alt="No image"> </a>
+                            <a href="#" class="post-title">Bật mí cách mặc đẹp cho người mập trở nên thon gọn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end featured-post -->
+        <div id="wp-content" class="container">
+            <div id="content">
+                <div class="box new-post">
+                    <div class="box-head">
+                        <h3>Bài viết mới</h3>
+                    </div>
+                    <div class="box-body">
+                        <ul class="list-post">
+                            <li>
+                                <a href="#" class="post-thumb">
+                                    <img src="assets/images/thumb-1.png" alt="No image">
+                                </a>
+                                <div class="more-info">
+                                    <a href="#" class="post-title">Bạn có phải là một người phụ nữ có phong cách?
+                                    </a>
+                                    <div class="post-published">
+                                        <a href="#" class="post-author">Hoang Phi</a>
+                                        <span class="post-date">20/11/2022</span>
+                                    </div>
+                                    <p class="post-excerpt">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, quaerat!
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="post-thumb">
+                                    <img src="assets/images/thumb-2.png" alt="">
+                                </a>
+                                <div class="more-info">
+                                    <a href="#" class="post-title">
+                                        Cách để bạn ltuôn tỏa sáng trước đám đông
+                                    </a>
+                                    <div class="post-published">
+                                        <a href="#" class="post-author">Hoang Phi</a>
+                                        <span class="post-date">20/11/2022</span>
+                                    </div>
+                                    <p class="post-excerpt">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, quaerat!
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="post-thumb">
+                                    <img src="assets/images/thumb-3.png" alt="No image">
+                                </a>
+                                <div class="more-info">
+                                    <a href="#" class="post-title">
+                                        Những kiểu tóc mới là xu hướng của giới trẻ 2020
+                                    </a>
+                                    <div class="post-published">
+                                        <a href="#" class="post-author">Hoang Phi</a>
+                                        <span class="post-date">20/11/2022</span>
+                                    </div>
+                                    <p class="post-excerpt">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, quaerat!
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="post-thumb">
+                                    <img src="assets/images/thumb-4.png" alt="No image">
+                                </a>
+                                <div class="more-info">
+                                    <a href="#" class="post-title">
+                                        15 địa điểm du lịch nổi tiếng bạn cần đến tại Việt Nam
+                                    </a>
+                                    <div class="post-published">
+                                        <a href="#" class="post-author">Hoang Phi</a>
+                                        <span class="post-date">20/11/2022</span>
+                                    </div>
+                                    <p class="post-excerpt">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptate, nam
+                                        ipsa voluptatem asperiores accusamus.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="post-thumb">
+                                    <img src="assets/images/pic-7.png" alt="No image">
+                                </a>
+                                <div class="more-info">
+                                    <a href="#" class="post-title">
+                                        Hãy xách balo lên và đi và trải nghiệm những khoảnh khắc thú vị
+                                    </a>
+                                    <div class="post-published">
+                                        <a href="#" class="post-author">Hoang Phi</a>
+                                        <span class="post-date">20/11/2022</span>
+                                    </div>
+                                    <p class="post-excerpt">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptate, nam
+                                        ipsa voluptatem asperiores accusamus.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="post-thumb">
+                                    <img src="assets/images/pic-8.png" alt="No image">
+                                </a>
+                                <div class="more-info">
+                                    <a href="#" class="post-title">
+                                        Top 10 nữ hoàng DJ nỗi tiếng nhất Las Vegas bạn cần biết
+                                    </a>
+                                    <div class="post-published">
+                                        <a href="#" class="post-author">Hoang Phi</a>
+                                        <span class="post-date">20/11/2022</span>
+                                    </div>
+                                    <p class="post-excerpt">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptate, nam
+                                        ipsa voluptatem asperiores accusamus.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end content  -->
+            <div id="sidebar">
+                <a href="#" class="ads">
+                    <img src="assets/images/ads-new.png" alt="No image">
+                </a>
+                <div class="box top-topic">
+                    <div class="box-head">
+                        <h3>Chủ để quan tâm</h3>
+                    </div>
+                    <div class="box-body">
+                        <ul class="list-topic">
+                            <li><a href="#">
+                                    Thời Trang <span class="num-post">20</span>
+                                </a></li>
+                            <li><a href="#">
+                                    Đời Sống <span class="num-post">30</span>
+                                </a></li>
+                            <li><a href="#">
+                                    Xã Hội <span class="num-post">36</span>
+                                </a></li>
+                            <li><a href="#">
+                                    Bóng Đá <span class="num-post">35</span>
+                                </a></li>
+                            <li><a href="#">
+                                    Điện Ảnh <span class="num-post">29</span>
+                                </a></li>
+                            <li><a href="#">
+                                    Sự Kiện <span class="num-post">15</span>
+                                </a></li>
+                            <li><a href="#">
+                                    Du Lịch <span class="num-post">34</span>
+                                </a></li>
+                            <li><a href="#">
+                                    Nội trợ <span class="num-post">35</span>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end sidebar  -->
+        </div>
+        <!-- end wp-content -->
+        <div id="footer">
+            <div class="container">
+                <div class="box logo-footer">
+                    <div class="box-head">
+                        <h3>Unitop</h3>
+                    </div>
+                    <div class="box-body">
+                        <a href="#"><img src="assets/images/logo.png" alt="No image"></a>
+                    </div>
+                </div>
+                <div class="box about-us">
+                    <div class="box-head">
+                        <h3>Về chúng tôi</h3>
+                    </div>
+                    <div class="box-body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iure quia at
+                            necessitatibus, voluptatibus impedit consectetur labore ipsum tenetur amet!
+                        </p>
+                        <a href="https://Unitop.vn">http://Unitop.vn</a>
+                    </div>
+                </div>
+                <div class="box follow">
+                    <div class="box-head">
+                        <h3>Theo dõi</h3>
+                    </div>
+                    <div class="box-body">
+                        <ul class="list-social">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end footer  -->
+        <div id="wp-copyright">
+            <div class="container justify-content-between">
+                <p class="copy-right">© Unitop.vn - Html Css 21 Ngày</p>
+                <ul id="footer-menu" class="d-flex">
+                    <li><a href="#">Bảo mật</a></li>
+                    <li><a href="#">Quảng cáo</a></li>
+                    <li>
+                        <a href="#">liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end copy-right -->
+    </div>
+</body>
+
+</html>
